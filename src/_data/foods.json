@@ -31,9 +31,7 @@
     "healing": 2,
     "duration": "20:00",
     "biome": "Meadows",
-    "ingredients": [
-      "Neck tail x1"
-    ]
+    "ingredients": ["Neck tail x1"]
   },
   {
     "name": "Cooked boar meat",
@@ -45,9 +43,7 @@
     "healing": 2,
     "duration": "20:00",
     "biome": "Meadows",
-    "ingredients": [
-      "Boar meat x1"
-    ]
+    "ingredients": ["Boar meat x1"]
   },
   {
     "name": "Honey",
@@ -70,9 +66,7 @@
     "healing": 2,
     "duration": "20:00",
     "biome": "Meadows",
-    "ingredients": [
-      "Deer meat x1"
-    ]
+    "ingredients": ["Deer meat x1"]
   },
   {
     "name": "Blueberries",
@@ -117,10 +111,7 @@
     "healing": 2,
     "duration": "30:00",
     "biome": "Black Forest",
-    "ingredients": [
-      "Boar meat x1",
-      "Honey x1"
-    ]
+    "ingredients": ["Boar meat x1", "Honey x1"]
   },
   {
     "name": "Cooked bear meat",
@@ -143,11 +134,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Black Forest",
-    "ingredients": [
-      "Boar meat x1",
-      "Neck tail x1",
-      "Carrot x1"
-    ]
+    "ingredients": ["Boar meat x1", "Neck tail x1", "Carrot x1"]
   },
   {
     "name": "Queen's jam",
@@ -159,10 +146,7 @@
     "healing": 2,
     "duration": "20:00",
     "biome": "Black Forest",
-    "ingredients": [
-      "Raspberries x8",
-      "Blueberries x6"
-    ]
+    "ingredients": ["Raspberries x8", "Blueberries x6"]
   },
   {
     "name": "Carrot soup",
@@ -174,10 +158,7 @@
     "healing": 2,
     "duration": "25:00",
     "biome": "Black Forest",
-    "ingredients": [
-      "Mushroom x1",
-      "Carrot x3"
-    ]
+    "ingredients": ["Mushroom x1", "Carrot x3"]
   },
   {
     "name": "Deer stew",
@@ -189,11 +170,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Black Forest",
-    "ingredients": [
-      "Blueberries x1",
-      "Carrot x1",
-      "Cooked deer meat x1"
-    ]
+    "ingredients": ["Blueberries x1", "Carrot x1", "Cooked deer meat x1"]
   },
   {
     "name": "Cooked fish",
@@ -205,9 +182,7 @@
     "healing": 2,
     "duration": "20:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Raw fish x1"
-    ]
+    "ingredients": ["Raw fish x1"]
   },
   {
     "name": "Muckshake",
@@ -219,11 +194,7 @@
     "healing": 1,
     "duration": "20:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Ooze x1",
-      "Raspberries x2",
-      "Blueberries x2"
-    ]
+    "ingredients": ["Ooze x1", "Raspberries x2", "Blueberries x2"]
   },
   {
     "name": "Turnip stew",
@@ -235,10 +206,7 @@
     "healing": 2,
     "duration": "25:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Boar meat x1",
-      "Turnip x3"
-    ]
+    "ingredients": ["Boar meat x1", "Turnip x3"]
   },
   {
     "name": "Sausages",
@@ -250,11 +218,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Entrails x4",
-      "Boar meat x1",
-      "Thistle x1"
-    ]
+    "ingredients": ["Entrails x4", "Boar meat x1", "Thistle x1"]
   },
   {
     "name": "Black soup",
@@ -266,11 +230,7 @@
     "healing": 3,
     "duration": "20:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Bloodbag x1",
-      "Honey x1",
-      "Turnip x1"
-    ]
+    "ingredients": ["Bloodbag x1", "Honey x1", "Turnip x1"]
   },
   {
     "name": "Cooked serpent meat",
@@ -282,9 +242,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Serpent meat x1"
-    ]
+    "ingredients": ["Serpent meat x1"]
   },
   {
     "name": "Serpent stew",
@@ -296,11 +254,7 @@
     "healing": 4,
     "duration": "30:00",
     "biome": "Swamp",
-    "ingredients": [
-      "Mushroom x1",
-      "Cooked serpent meat x1",
-      "Honey x2"
-    ]
+    "ingredients": ["Mushroom x1", "Cooked serpent meat x1", "Honey x2"]
   },
   {
     "name": "Onion",
@@ -323,9 +277,7 @@
     "healing": 3,
     "duration": "20:00",
     "biome": "Mountain",
-    "ingredients": [
-      "Wolf meat x1"
-    ]
+    "ingredients": ["Wolf meat x1"]
   },
   {
     "name": "Wolf jerky",
@@ -337,10 +289,7 @@
     "healing": 3,
     "duration": "30:00",
     "biome": "Mountain",
-    "ingredients": [
-      "Wolf meat x1",
-      "Honey x1"
-    ]
+    "ingredients": ["Wolf meat x1", "Honey x1"]
   },
   {
     "name": "Onion soup",
@@ -352,9 +301,7 @@
     "healing": 1,
     "duration": "20:00",
     "biome": "Mountain",
-    "ingredients": [
-      "Onion x3"
-    ]
+    "ingredients": ["Onion x3"]
   },
   {
     "name": "Wolf skewer",
@@ -366,11 +313,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Mountain",
-    "ingredients": [
-      "Wolf meat x1",
-      "Mushroom x2",
-      "Onion x1"
-    ]
+    "ingredients": ["Wolf meat x1", "Mushroom x2", "Onion x1"]
   },
   {
     "name": "Eyescream",
@@ -382,10 +325,7 @@
     "healing": 1,
     "duration": "25:00",
     "biome": "Mountain",
-    "ingredients": [
-      "Greydwarf eye x3",
-      "Freeze gland x1"
-    ]
+    "ingredients": ["Greydwarf eye x3", "Freeze gland x1"]
   },
   {
     "name": "Cloudberries",
@@ -408,9 +348,7 @@
     "healing": 4,
     "duration": "20:00",
     "biome": "Plains",
-    "ingredients": [
-      "Lox meat x1"
-    ]
+    "ingredients": ["Lox meat x1"]
   },
   {
     "name": "Fish wraps",
@@ -422,10 +360,7 @@
     "healing": 4,
     "duration": "25:00",
     "biome": "Plains",
-    "ingredients": [
-      "Cooked fish x2",
-      "Barley flour x4"
-    ]
+    "ingredients": ["Cooked fish x2", "Barley flour x4"]
   },
   {
     "name": "Lox meat pie",
@@ -437,11 +372,7 @@
     "healing": 4,
     "duration": "30:00",
     "biome": "Plains",
-    "ingredients": [
-      "Barley flour x4",
-      "Cloudberries x2",
-      "Lox meat x2"
-    ]
+    "ingredients": ["Barley flour x4", "Cloudberries x2", "Lox meat x2"]
   },
   {
     "name": "Blood pudding",
@@ -453,11 +384,7 @@
     "healing": 2,
     "duration": "30:00",
     "biome": "Plains",
-    "ingredients": [
-      "Thistle x2",
-      "Bloodbag x2",
-      "Barley flour x4"
-    ]
+    "ingredients": ["Thistle x2", "Bloodbag x2", "Barley flour x4"]
   },
   {
     "name": "Bread",
@@ -469,9 +396,7 @@
     "healing": 2,
     "duration": "25:00",
     "biome": "Plains",
-    "ingredients": [
-      "Bread dough x1"
-    ]
+    "ingredients": ["Bread dough x1"]
   },
   {
     "name": "Magecap",
@@ -505,9 +430,7 @@
     "healing": 2,
     "duration": "20:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Egg x1"
-    ]
+    "ingredients": ["Egg x1"]
   },
   {
     "name": "Cooked seeker meat",
@@ -519,9 +442,7 @@
     "healing": 5,
     "duration": "20:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Seeker meat x1"
-    ]
+    "ingredients": ["Seeker meat x1"]
   },
   {
     "name": "Cooked hare meat",
@@ -533,9 +454,7 @@
     "healing": 5,
     "duration": "20:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Hare meat x1"
-    ]
+    "ingredients": ["Hare meat x1"]
   },
   {
     "name": "Cooked chicken meat",
@@ -547,9 +466,7 @@
     "healing": 5,
     "duration": "20:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Chicken meat x1"
-    ]
+    "ingredients": ["Chicken meat x1"]
   },
   {
     "name": "Meat platter",
@@ -561,11 +478,7 @@
     "healing": 5,
     "duration": "30:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Seeker meat x1",
-      "Lox meat x1",
-      "Hare meat x1"
-    ]
+    "ingredients": ["Seeker meat x1", "Lox meat x1", "Hare meat x1"]
   },
   {
     "name": "Honey glazed chicken",
@@ -577,11 +490,7 @@
     "healing": 5,
     "duration": "30:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Chicken meat x1",
-      "Honey x3",
-      "Jotun puffs x2"
-    ]
+    "ingredients": ["Chicken meat x1", "Honey x3", "Jotun puffs x2"]
   },
   {
     "name": "Misthare supreme",
@@ -593,11 +502,7 @@
     "healing": 5,
     "duration": "25:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Hare meat x1",
-      "Jotun puffs x3",
-      "Carrot x2"
-    ]
+    "ingredients": ["Hare meat x1", "Jotun puffs x3", "Carrot x2"]
   },
   {
     "name": "Salad",
@@ -609,11 +514,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Jotun puffs x3",
-      "Onion x3",
-      "Cloudberries x3"
-    ]
+    "ingredients": ["Jotun puffs x3", "Onion x3", "Cloudberries x3"]
   },
   {
     "name": "Mushroom omelette",
@@ -625,10 +526,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Egg x3",
-      "Jotun puffs x3"
-    ]
+    "ingredients": ["Egg x3", "Jotun puffs x3"]
   },
   {
     "name": "Fish 'n' bread",
@@ -640,10 +538,7 @@
     "healing": 3,
     "duration": "30:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Anglerfish x1",
-      "Bread dough x2"
-    ]
+    "ingredients": ["Anglerfish x1", "Bread dough x2"]
   },
   {
     "name": "Stuffed mushroom",
@@ -655,11 +550,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Magecap x3",
-      "Blood clot x1",
-      "Turnip x2"
-    ]
+    "ingredients": ["Magecap x3", "Blood clot x1", "Turnip x2"]
   },
   {
     "name": "Yggdrasil porridge",
@@ -671,11 +562,7 @@
     "healing": 3,
     "duration": "25:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Sap x4",
-      "Barley x3",
-      "Royal jelly x2"
-    ]
+    "ingredients": ["Sap x4", "Barley x3", "Royal jelly x2"]
   },
   {
     "name": "Seeker aspic",
@@ -687,11 +574,7 @@
     "healing": 3,
     "duration": "30:00",
     "biome": "Mistlands",
-    "ingredients": [
-      "Seeker meat x2",
-      "Magecap x2",
-      "Royal jelly x2"
-    ]
+    "ingredients": ["Seeker meat x2", "Magecap x2", "Royal jelly x2"]
   },
   {
     "name": "Smoke puff",
@@ -736,9 +619,7 @@
     "healing": 6,
     "duration": "20:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Asksvin tail x1"
-    ]
+    "ingredients": ["Asksvin tail x1"]
   },
   {
     "name": "Cooked volture meat",
@@ -750,9 +631,7 @@
     "healing": 6,
     "duration": "20:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Volture meat x1"
-    ]
+    "ingredients": ["Volture meat x1"]
   },
   {
     "name": "Cooked bonemaw meat",
@@ -764,9 +643,7 @@
     "healing": 6,
     "duration": "25:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Bonemaw meat x1"
-    ]
+    "ingredients": ["Bonemaw meat x1"]
   },
   {
     "name": "Fiery svinstew",
@@ -778,11 +655,7 @@
     "healing": 6,
     "duration": "25:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Asksvin tail x1",
-      "Vineberry cluster x2",
-      "Smoke puff x1"
-    ]
+    "ingredients": ["Asksvin tail x1", "Vineberry cluster x2", "Smoke puff x1"]
   },
   {
     "name": "Mashed meat",
@@ -794,11 +667,7 @@
     "healing": 6,
     "duration": "25:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Asksvin tail x1",
-      "Volture meat x1",
-      "Fiddlehead x1"
-    ]
+    "ingredients": ["Asksvin tail x1", "Volture meat x1", "Fiddlehead x1"]
   },
   {
     "name": "Piquant pie",
@@ -826,11 +695,7 @@
     "healing": 4,
     "duration": "25:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Vineberry cluster x3",
-      "Honey x1",
-      "Fiddlehead x1"
-    ]
+    "ingredients": ["Vineberry cluster x3", "Honey x1", "Fiddlehead x1"]
   },
   {
     "name": "Scorching medley",
@@ -842,11 +707,7 @@
     "healing": 4,
     "duration": "25:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Jotun puffs x3",
-      "Onion x3",
-      "Fiddlehead x3"
-    ]
+    "ingredients": ["Jotun puffs x3", "Onion x3", "Fiddlehead x3"]
   },
   {
     "name": "Roasted crust pie",
@@ -858,11 +719,7 @@
     "healing": 4,
     "duration": "30:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Volture egg x1",
-      "Vineberry cluster x2",
-      "Barley flour x4"
-    ]
+    "ingredients": ["Volture egg x1", "Vineberry cluster x2", "Barley flour x4"]
   },
   {
     "name": "Sizzling berry broth",
@@ -874,11 +731,7 @@
     "healing": 4,
     "duration": "25:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Sap x3",
-      "Vineberry cluster x2",
-      "Fiddlehead x2"
-    ]
+    "ingredients": ["Sap x3", "Vineberry cluster x2", "Fiddlehead x2"]
   },
   {
     "name": "Sparkling shroomshake",
@@ -907,11 +760,6 @@
     "healing": 4,
     "duration": "30:00",
     "biome": "Ashlands",
-    "ingredients": [
-      "Sap x3",
-      "Magecap x2",
-      "Fiddlehead x2",
-      "Smoke puff x2"
-    ]
+    "ingredients": ["Sap x3", "Magecap x2", "Fiddlehead x2", "Smoke puff x2"]
   }
 ]

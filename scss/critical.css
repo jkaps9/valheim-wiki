@@ -90,6 +90,10 @@ select {
   --card-bg: #ffffff;
   --footer-bg: #111;
   --cta-bg: #1a1a1a;
+  --fork-yellow: #e8fc03;
+  --fork-red: #fc0320;
+  --fork-blue: #0703fc;
+  --fork-white: #f3ebeb;
   --container-max-width: 70rem;
   --container-width: 90%;
   --section-spacing: clamp(2rem, 0.9437rem + 4.507vw, 5rem);
@@ -252,6 +256,44 @@ header .nav__item:hover::after {
 
 footer {
   text-align: center;
+}
+
+.foods .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.foods__card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem 1rem;
+}
+.foods__card .ingredients__list {
+  padding-left: 1rem;
+}
+.foods__title-row {
+  display: flex;
+  justify-content: space-between;
+}
+.foods__fork {
+  height: 100%;
+  width: 2.5rem;
+}
+.foods__fork.yellow svg * {
+  fill: var(--fork-yellow);
+}
+.foods__fork.red svg * {
+  fill: var(--fork-red);
+}
+.foods__fork.blue svg * {
+  fill: var(--fork-blue);
+}
+.foods__fork.white svg * {
+  fill: var(--fork-white);
+}
+.foods .stats__item .value {
+  color: var(--text-color);
 }
 
 @media (min-width: 48rem) {

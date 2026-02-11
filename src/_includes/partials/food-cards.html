@@ -1,12 +1,11 @@
 <section class="foods">
   <div class="container">
-    {% set baseUrl = "assets/images/" %}
     {% for food in foods %}
       <div class="foods__card">
         <h2 class="foods__name">{{ food.name }}</h2>
         <div class="foods__image">
           <img
-            src="{{ ('/assets/images/' + (food.name | lower | replace (' ', '_') | replace ('\'', '')) + '.png') | url }}"
+            src="{{ ('/assets/images/foods/' + (food.name | lower | replace (' ', '_') | replace ('\'', '')) + '.png') | url }}"
             alt=""
           />
         </div>

@@ -299,6 +299,38 @@ footer {
   fill: var(--fork-white);
 }
 
+.foods-table {
+  --section-spacing: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
+}
+.foods-table .foods__table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid var(--border-color);
+}
+.foods-table .foods__table caption {
+  text-align: left;
+  margin-bottom: 1em;
+}
+.foods-table .foods__table th,
+.foods-table .foods__table td {
+  padding: 0.6em;
+  border: 1px solid var(--border-color);
+}
+.foods-table .foods__table tr {
+  text-align: right;
+}
+.foods-table .foods__table tr :nth-child(1),
+.foods-table .foods__table tr :nth-child(10) {
+  text-align: left;
+}
+.foods-table .foods__table tr :nth-child(2) {
+  text-align: center;
+  margin: 0 auto;
+  width: 7%;
+}
+
 @media (min-width: 48rem) {
   header .nav-toggle {
     height: 0;

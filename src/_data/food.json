@@ -1,0 +1,917 @@
+[
+  {
+    "name": "Raspberries",
+    "health": 7,
+    "stamina": 20,
+    "eitr": 0,
+    "total": 27,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "10:00",
+    "biome": "Meadows"
+  },
+  {
+    "name": "Mushroom",
+    "health": 15,
+    "stamina": 15,
+    "eitr": 0,
+    "total": 30,
+    "fork_type": "White",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Meadows"
+  },
+  {
+    "name": "Grilled neck tail",
+    "health": 25,
+    "stamina": 8,
+    "eitr": 0,
+    "total": 33,
+    "fork_type": "Red",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Meadows",
+    "ingredients": [
+      "Neck tail x1"
+    ]
+  },
+  {
+    "name": "Cooked boar meat",
+    "health": 30,
+    "stamina": 10,
+    "eitr": 0,
+    "total": 40,
+    "fork_type": "Red",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Meadows",
+    "ingredients": [
+      "Boar meat x1"
+    ]
+  },
+  {
+    "name": "Honey",
+    "health": 8,
+    "stamina": 35,
+    "eitr": 0,
+    "total": 43,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Meadows"
+  },
+  {
+    "name": "Cooked deer meat",
+    "health": 35,
+    "stamina": 12,
+    "eitr": 0,
+    "total": 47,
+    "fork_type": "Red",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Meadows",
+    "ingredients": [
+      "Deer meat x1"
+    ]
+  },
+  {
+    "name": "Blueberries",
+    "health": 8,
+    "stamina": 25,
+    "eitr": 0,
+    "total": 33,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "10:00",
+    "biome": "Black Forest"
+  },
+  {
+    "name": "Yellow mushroom",
+    "health": 10,
+    "stamina": 30,
+    "eitr": 0,
+    "total": 40,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "10:00",
+    "biome": "Black Forest"
+  },
+  {
+    "name": "Carrot",
+    "health": 10,
+    "stamina": 32,
+    "eitr": 0,
+    "total": 42,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Black Forest"
+  },
+  {
+    "name": "Boar jerky",
+    "health": 23,
+    "stamina": 23,
+    "eitr": 0,
+    "total": 46,
+    "fork_type": "White",
+    "healing": 2,
+    "duration": "30:00",
+    "biome": "Black Forest",
+    "ingredients": [
+      "Boar meat x1",
+      "Honey x1"
+    ]
+  },
+  {
+    "name": "Cooked bear meat",
+    "health": 40,
+    "stamina": 13,
+    "eitr": 0,
+    "total": 53,
+    "fork_type": "Red",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Black Forest"
+  },
+  {
+    "name": "Minced meat sauce",
+    "health": 40,
+    "stamina": 13,
+    "eitr": 0,
+    "total": 53,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Black Forest",
+    "ingredients": [
+      "Boar meat x1",
+      "Neck tail x1",
+      "Carrot x1"
+    ]
+  },
+  {
+    "name": "Queen's jam",
+    "health": 14,
+    "stamina": 40,
+    "eitr": 0,
+    "total": 54,
+    "fork_type": "Yellow",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Black Forest",
+    "ingredients": [
+      "Raspberries x8",
+      "Blueberries x6"
+    ]
+  },
+  {
+    "name": "Carrot soup",
+    "health": 15,
+    "stamina": 45,
+    "eitr": 0,
+    "total": 60,
+    "fork_type": "Yellow",
+    "healing": 2,
+    "duration": "25:00",
+    "biome": "Black Forest",
+    "ingredients": [
+      "Mushroom x1",
+      "Carrot x3"
+    ]
+  },
+  {
+    "name": "Deer stew",
+    "health": 45,
+    "stamina": 15,
+    "eitr": 0,
+    "total": 60,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Black Forest",
+    "ingredients": [
+      "Blueberries x1",
+      "Carrot x1",
+      "Cooked deer meat x1"
+    ]
+  },
+  {
+    "name": "Cooked fish",
+    "health": 45,
+    "stamina": 15,
+    "eitr": 0,
+    "total": 60,
+    "fork_type": "Red",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Raw fish x1"
+    ]
+  },
+  {
+    "name": "Muckshake",
+    "health": 16,
+    "stamina": 50,
+    "eitr": 0,
+    "total": 66,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "20:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Ooze x1",
+      "Raspberries x2",
+      "Blueberries x2"
+    ]
+  },
+  {
+    "name": "Turnip stew",
+    "health": 18,
+    "stamina": 55,
+    "eitr": 0,
+    "total": 73,
+    "fork_type": "Yellow",
+    "healing": 2,
+    "duration": "25:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Boar meat x1",
+      "Turnip x3"
+    ]
+  },
+  {
+    "name": "Sausages",
+    "health": 55,
+    "stamina": 18,
+    "eitr": 0,
+    "total": 73,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Entrails x4",
+      "Boar meat x1",
+      "Thistle x1"
+    ]
+  },
+  {
+    "name": "Black soup",
+    "health": 50,
+    "stamina": 17,
+    "eitr": 0,
+    "total": 67,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "20:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Bloodbag x1",
+      "Honey x1",
+      "Turnip x1"
+    ]
+  },
+  {
+    "name": "Cooked serpent meat",
+    "health": 70,
+    "stamina": 23,
+    "eitr": 0,
+    "total": 93,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Serpent meat x1"
+    ]
+  },
+  {
+    "name": "Serpent stew",
+    "health": 80,
+    "stamina": 26,
+    "eitr": 0,
+    "total": 106,
+    "fork_type": "Red",
+    "healing": 4,
+    "duration": "30:00",
+    "biome": "Swamp",
+    "ingredients": [
+      "Mushroom x1",
+      "Cooked serpent meat x1",
+      "Honey x2"
+    ]
+  },
+  {
+    "name": "Onion",
+    "health": 13,
+    "stamina": 40,
+    "eitr": 0,
+    "total": 53,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Mountain"
+  },
+  {
+    "name": "Cooked wolf meat",
+    "health": 45,
+    "stamina": 15,
+    "eitr": 0,
+    "total": 60,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "20:00",
+    "biome": "Mountain",
+    "ingredients": [
+      "Wolf meat x1"
+    ]
+  },
+  {
+    "name": "Wolf jerky",
+    "health": 33,
+    "stamina": 33,
+    "eitr": 0,
+    "total": 66,
+    "fork_type": "White",
+    "healing": 3,
+    "duration": "30:00",
+    "biome": "Mountain",
+    "ingredients": [
+      "Wolf meat x1",
+      "Honey x1"
+    ]
+  },
+  {
+    "name": "Onion soup",
+    "health": 20,
+    "stamina": 60,
+    "eitr": 0,
+    "total": 80,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "20:00",
+    "biome": "Mountain",
+    "ingredients": [
+      "Onion x3"
+    ]
+  },
+  {
+    "name": "Wolf skewer",
+    "health": 65,
+    "stamina": 21,
+    "eitr": 0,
+    "total": 86,
+    "fork_type": "Red",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Mountain",
+    "ingredients": [
+      "Wolf meat x1",
+      "Mushroom x2",
+      "Onion x1"
+    ]
+  },
+  {
+    "name": "Eyescream",
+    "health": 21,
+    "stamina": 65,
+    "eitr": 0,
+    "total": 86,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "25:00",
+    "biome": "Mountain",
+    "ingredients": [
+      "Greydwarf eye x3",
+      "Freeze gland x1"
+    ]
+  },
+  {
+    "name": "Cloudberries",
+    "health": 13,
+    "stamina": 40,
+    "eitr": 0,
+    "total": 53,
+    "fork_type": "Yellow",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Plains"
+  },
+  {
+    "name": "Cooked lox meat",
+    "health": 50,
+    "stamina": 16,
+    "eitr": 0,
+    "total": 66,
+    "fork_type": "Red",
+    "healing": 4,
+    "duration": "20:00",
+    "biome": "Plains",
+    "ingredients": [
+      "Lox meat x1"
+    ]
+  },
+  {
+    "name": "Fish wraps",
+    "health": 70,
+    "stamina": 23,
+    "eitr": 0,
+    "total": 93,
+    "fork_type": "Red",
+    "healing": 4,
+    "duration": "25:00",
+    "biome": "Plains",
+    "ingredients": [
+      "Cooked fish x2",
+      "Barley flour x4"
+    ]
+  },
+  {
+    "name": "Lox meat pie",
+    "health": 75,
+    "stamina": 24,
+    "eitr": 0,
+    "total": 99,
+    "fork_type": "Red",
+    "healing": 4,
+    "duration": "30:00",
+    "biome": "Plains",
+    "ingredients": [
+      "Barley flour x4",
+      "Cloudberries x2",
+      "Lox meat x2"
+    ]
+  },
+  {
+    "name": "Blood pudding",
+    "health": 25,
+    "stamina": 75,
+    "eitr": 0,
+    "total": 100,
+    "fork_type": "Yellow",
+    "healing": 2,
+    "duration": "30:00",
+    "biome": "Plains",
+    "ingredients": [
+      "Thistle x2",
+      "Bloodbag x2",
+      "Barley flour x4"
+    ]
+  },
+  {
+    "name": "Bread",
+    "health": 23,
+    "stamina": 70,
+    "eitr": 0,
+    "total": 93,
+    "fork_type": "Yellow",
+    "healing": 2,
+    "duration": "25:00",
+    "biome": "Plains",
+    "ingredients": [
+      "Bread dough x1"
+    ]
+  },
+  {
+    "name": "Magecap",
+    "health": 25,
+    "stamina": 25,
+    "eitr": 25,
+    "total": 75,
+    "fork_type": "White",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Mistlands"
+  },
+  {
+    "name": "Jotun puffs",
+    "health": 25,
+    "stamina": 25,
+    "eitr": 0,
+    "total": 50,
+    "fork_type": "White",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Mistlands"
+  },
+  {
+    "name": "Cooked egg",
+    "health": 35,
+    "stamina": 12,
+    "eitr": 0,
+    "total": 47,
+    "fork_type": "Red",
+    "healing": 2,
+    "duration": "20:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Egg x1"
+    ]
+  },
+  {
+    "name": "Cooked seeker meat",
+    "health": 60,
+    "stamina": 20,
+    "eitr": 0,
+    "total": 80,
+    "fork_type": "Red",
+    "healing": 5,
+    "duration": "20:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Seeker meat x1"
+    ]
+  },
+  {
+    "name": "Cooked hare meat",
+    "health": 60,
+    "stamina": 20,
+    "eitr": 0,
+    "total": 80,
+    "fork_type": "Red",
+    "healing": 5,
+    "duration": "20:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Hare meat x1"
+    ]
+  },
+  {
+    "name": "Cooked chicken meat",
+    "health": 60,
+    "stamina": 20,
+    "eitr": 0,
+    "total": 80,
+    "fork_type": "Red",
+    "healing": 5,
+    "duration": "20:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Chicken meat x1"
+    ]
+  },
+  {
+    "name": "Meat platter",
+    "health": 80,
+    "stamina": 26,
+    "eitr": 0,
+    "total": 106,
+    "fork_type": "Red",
+    "healing": 5,
+    "duration": "30:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Seeker meat x1",
+      "Lox meat x1",
+      "Hare meat x1"
+    ]
+  },
+  {
+    "name": "Honey glazed chicken",
+    "health": 80,
+    "stamina": 26,
+    "eitr": 0,
+    "total": 106,
+    "fork_type": "Red",
+    "healing": 5,
+    "duration": "30:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Chicken meat x1",
+      "Honey x3",
+      "Jotun puffs x2"
+    ]
+  },
+  {
+    "name": "Misthare supreme",
+    "health": 85,
+    "stamina": 28,
+    "eitr": 0,
+    "total": 113,
+    "fork_type": "Red",
+    "healing": 5,
+    "duration": "25:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Hare meat x1",
+      "Jotun puffs x3",
+      "Carrot x2"
+    ]
+  },
+  {
+    "name": "Salad",
+    "health": 26,
+    "stamina": 80,
+    "eitr": 0,
+    "total": 106,
+    "fork_type": "Yellow",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Jotun puffs x3",
+      "Onion x3",
+      "Cloudberries x3"
+    ]
+  },
+  {
+    "name": "Mushroom omelette",
+    "health": 28,
+    "stamina": 85,
+    "eitr": 0,
+    "total": 113,
+    "fork_type": "Yellow",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Egg x3",
+      "Jotun puffs x3"
+    ]
+  },
+  {
+    "name": "Fish 'n' bread",
+    "health": 30,
+    "stamina": 90,
+    "eitr": 0,
+    "total": 120,
+    "fork_type": "Yellow",
+    "healing": 3,
+    "duration": "30:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Anglerfish x1",
+      "Bread dough x2"
+    ]
+  },
+  {
+    "name": "Stuffed mushroom",
+    "health": 25,
+    "stamina": 12,
+    "eitr": 75,
+    "total": 112,
+    "fork_type": "Blue",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Magecap x3",
+      "Blood clot x1",
+      "Turnip x2"
+    ]
+  },
+  {
+    "name": "Yggdrasil porridge",
+    "health": 27,
+    "stamina": 13,
+    "eitr": 80,
+    "total": 120,
+    "fork_type": "Blue",
+    "healing": 3,
+    "duration": "25:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Sap x4",
+      "Barley x3",
+      "Royal jelly x2"
+    ]
+  },
+  {
+    "name": "Seeker aspic",
+    "health": 28,
+    "stamina": 14,
+    "eitr": 85,
+    "total": 127,
+    "fork_type": "Blue",
+    "healing": 3,
+    "duration": "30:00",
+    "biome": "Mistlands",
+    "ingredients": [
+      "Seeker meat x2",
+      "Magecap x2",
+      "Royal jelly x2"
+    ]
+  },
+  {
+    "name": "Smoke puff",
+    "health": 15,
+    "stamina": 15,
+    "eitr": 0,
+    "total": 30,
+    "fork_type": "White",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Ashlands"
+  },
+  {
+    "name": "Fiddlehead",
+    "health": 30,
+    "stamina": 30,
+    "eitr": 0,
+    "total": 60,
+    "fork_type": "White",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Ashlands"
+  },
+  {
+    "name": "Vineberry cluster",
+    "health": 30,
+    "stamina": 30,
+    "eitr": 30,
+    "total": 90,
+    "fork_type": "White",
+    "healing": 1,
+    "duration": "15:00",
+    "biome": "Ashlands"
+  },
+  {
+    "name": "Cooked asksvin tail",
+    "health": 70,
+    "stamina": 24,
+    "eitr": 0,
+    "total": 94,
+    "fork_type": "Red",
+    "healing": 6,
+    "duration": "20:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Asksvin tail x1"
+    ]
+  },
+  {
+    "name": "Cooked volture meat",
+    "health": 70,
+    "stamina": 24,
+    "eitr": 0,
+    "total": 94,
+    "fork_type": "Red",
+    "healing": 6,
+    "duration": "20:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Volture meat x1"
+    ]
+  },
+  {
+    "name": "Cooked bonemaw meat",
+    "health": 90,
+    "stamina": 30,
+    "eitr": 0,
+    "total": 120,
+    "fork_type": "Red",
+    "healing": 6,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Bonemaw meat x1"
+    ]
+  },
+  {
+    "name": "Fiery svinstew",
+    "health": 95,
+    "stamina": 32,
+    "eitr": 0,
+    "total": 127,
+    "fork_type": "Red",
+    "healing": 6,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Asksvin tail x1",
+      "Vineberry cluster x2",
+      "Smoke puff x1"
+    ]
+  },
+  {
+    "name": "Mashed meat",
+    "health": 100,
+    "stamina": 34,
+    "eitr": 0,
+    "total": 134,
+    "fork_type": "Red",
+    "healing": 6,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Asksvin tail x1",
+      "Volture meat x1",
+      "Fiddlehead x1"
+    ]
+  },
+  {
+    "name": "Piquant pie",
+    "health": 105,
+    "stamina": 35,
+    "eitr": 0,
+    "total": 140,
+    "fork_type": "Red",
+    "healing": 6,
+    "duration": "30:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Asksvin tail x2",
+      "Vineberry cluster x2",
+      "Barley flour x4"
+    ]
+  },
+  {
+    "name": "Spicy marmalade",
+    "health": 30,
+    "stamina": 90,
+    "eitr": 0,
+    "total": 120,
+    "fork_type": "Yellow",
+    "healing": 4,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Vineberry cluster x3",
+      "Honey x1",
+      "Fiddlehead x1"
+    ]
+  },
+  {
+    "name": "Scorching medley",
+    "health": 32,
+    "stamina": 95,
+    "eitr": 0,
+    "total": 127,
+    "fork_type": "Yellow",
+    "healing": 4,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Jotun puffs x3",
+      "Onion x3",
+      "Fiddlehead x3"
+    ]
+  },
+  {
+    "name": "Roasted crust pie",
+    "health": 34,
+    "stamina": 100,
+    "eitr": 0,
+    "total": 134,
+    "fork_type": "Yellow",
+    "healing": 4,
+    "duration": "30:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Volture egg x1",
+      "Vineberry cluster x2",
+      "Barley flour x4"
+    ]
+  },
+  {
+    "name": "Sizzling berry broth",
+    "health": 28,
+    "stamina": 14,
+    "eitr": 85,
+    "total": 127,
+    "fork_type": "Blue",
+    "healing": 4,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Sap x3",
+      "Vineberry cluster x2",
+      "Fiddlehead x2"
+    ]
+  },
+  {
+    "name": "Sparkling shroomshake",
+    "health": 30,
+    "stamina": 15,
+    "eitr": 90,
+    "total": 135,
+    "fork_type": "Blue",
+    "healing": 4,
+    "duration": "25:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Sap x4",
+      "Magecap x2",
+      "Vineberry cluster x2",
+      "Smoke puff x2"
+    ]
+  },
+  {
+    "name": "Marinated greens",
+    "health": 32,
+    "stamina": 16,
+    "eitr": 95,
+    "total": 143,
+    "fork_type": "Blue",
+    "healing": 4,
+    "duration": "30:00",
+    "biome": "Ashlands",
+    "ingredients": [
+      "Sap x3",
+      "Magecap x2",
+      "Fiddlehead x2",
+      "Smoke puff x2"
+    ]
+  }
+]

@@ -7,3 +7,13 @@ if (navToggle && mainNav) {
     mainNav.classList.toggle("visible");
   });
 }
+
+// View Toggle
+const viewToggle = document.querySelector(".view-toggle");
+const main = document.querySelector("main");
+
+if (viewToggle && main) {
+  viewToggle.addEventListener("click", () => {
+    main.classList.toggle("grid");
+  });
+}

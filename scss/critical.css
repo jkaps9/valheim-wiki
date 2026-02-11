@@ -219,6 +219,28 @@ header:has(.main-nav.visible) svg.hamburger {
   height: 0;
   position: absolute;
 }
+header .view-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+header .view-toggle svg {
+  height: 2rem;
+  width: 100%;
+}
+header .view-toggle svg * {
+  stroke: var(--text-color);
+}
+header .view-toggle svg.table {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+header .view-toggle svg.grid {
+  visibility: visible;
+  height: 2rem;
+  position: relative;
+}
 header .navbar {
   position: relative;
   padding: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem) 0;
@@ -274,6 +296,9 @@ footer {
   text-align: center;
 }
 
+.foods {
+  display: none;
+}
 .foods .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
@@ -301,6 +326,7 @@ footer {
 
 .foods-table {
   --section-spacing: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
+  display: block;
 }
 .foods-table .foods__table {
   table-layout: fixed;
@@ -329,6 +355,23 @@ footer {
   text-align: center;
   margin: 0 auto;
   width: 7%;
+}
+
+body:has(main.grid) header svg.table {
+  visibility: visible;
+  height: 2rem;
+  position: relative;
+}
+body:has(main.grid) header svg.grid {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+body:has(main.grid) .foods {
+  display: block;
+}
+body:has(main.grid) .foods-table {
+  display: none;
 }
 
 @media (min-width: 48rem) {

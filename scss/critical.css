@@ -254,34 +254,6 @@ footer {
   text-align: center;
 }
 
-.services .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-  place-items: center;
-  gap: clamp(1rem, 0.2958rem + 3.0047vw, 3rem);
-}
-.services__card {
-  background-color: var(--card-bg);
-  border-radius: 1rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  color: var(--text-color);
-  padding: var(--card-padding);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-.services__icon {
-  max-width: 3rem;
-}
-.services__icon svg {
-  max-width: 100%;
-  height: auto;
-}
-.services__icon svg * {
-  fill: var(--text-secondary);
-}
-
 @media (min-width: 48rem) {
   header .nav-toggle {
     height: 0;

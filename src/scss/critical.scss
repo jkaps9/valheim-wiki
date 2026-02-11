@@ -176,6 +176,34 @@ header {
     }
   }
 
+  .view-toggle {
+    background: none;
+    border: none;
+
+    rect {
+      stroke: var(--text-color);
+    }
+
+    svg.grid {
+      visibility: hidden;
+      height: 0;
+      position: absolute;
+    }
+  }
+
+  &:has(.main-nav.visible) {
+    svg.grid {
+      visibility: visible;
+      height: auto;
+      position: relative;
+    }
+    svg.table {
+      visibility: hidden;
+      height: 0;
+      position: absolute;
+    }
+  }
+
   .navbar {
     position: relative;
     padding: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem) 0;

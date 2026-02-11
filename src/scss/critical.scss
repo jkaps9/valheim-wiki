@@ -179,28 +179,27 @@ header {
   .view-toggle {
     background: none;
     border: none;
+    cursor: pointer;
 
-    rect {
+    svg {
+      height: 2rem;
+      width: 100%;
+    }
+
+    svg * {
       stroke: var(--text-color);
     }
 
-    svg.grid {
-      visibility: hidden;
-      height: 0;
-      position: absolute;
-    }
-  }
-
-  &:has(.main-nav.visible) {
-    svg.grid {
-      visibility: visible;
-      height: auto;
-      position: relative;
-    }
     svg.table {
       visibility: hidden;
       height: 0;
       position: absolute;
+    }
+
+    svg.grid {
+      visibility: visible;
+      height: 2rem;
+      position: relative;
     }
   }
 
@@ -259,6 +258,20 @@ header {
     &:hover::after {
       width: 100%;
     }
+  }
+}
+
+body:has(main.grid) header {
+  svg.table {
+    visibility: visible;
+    height: 2rem;
+    position: relative;
+  }
+
+  svg.grid {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
   }
 }
 

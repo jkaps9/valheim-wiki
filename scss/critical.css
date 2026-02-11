@@ -98,6 +98,8 @@ select {
   --container-width: 90%;
   --section-spacing: clamp(2rem, 0.9437rem + 4.507vw, 5rem);
   --card-padding: 1.5rem 2rem;
+  --card-width: 250px;
+  --card-container-gap: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -162,7 +164,14 @@ p {
   background-color: var(--card-bg);
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 2rem 1rem;
+  padding: var(--card-padding);
+}
+.card__title-row {
+  display: flex;
+  justify-content: space-between;
+}
+.card .stats__item .value {
+  color: var(--text-color);
 }
 
 header {
@@ -267,15 +276,11 @@ footer {
 
 .foods .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+  gap: var(--card-container-gap);
 }
 .foods__card .ingredients__list {
   padding-left: 1rem;
-}
-.foods__title-row {
-  display: flex;
-  justify-content: space-between;
 }
 .foods__fork {
   height: 100%;
@@ -292,9 +297,6 @@ footer {
 }
 .foods__fork.white svg * {
   fill: var(--fork-white);
-}
-.foods .stats__item .value {
-  color: var(--text-color);
 }
 
 @media (min-width: 48rem) {

@@ -158,6 +158,13 @@ p {
   background-color: var(--accent-hover);
 }
 
+.card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem 1rem;
+}
+
 header {
   position: relative;
 }
@@ -262,12 +269,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
-}
-.foods__card {
-  background-color: var(--card-bg);
-  border-radius: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 2rem 1rem;
 }
 .foods__card .ingredients__list {
   padding-left: 1rem;

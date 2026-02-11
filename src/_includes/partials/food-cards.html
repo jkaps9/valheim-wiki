@@ -1,7 +1,7 @@
 <section class="foods">
   <div class="container">
     {% for food in foods %}
-      <div class="foods__card">
+      <div class="foods__card card">
         <div class="foods__title-row">
           <h2 class="foods__name">{{ food.name }}</h2>
           <div class="foods__fork {{ food.fork_type | lower }}">

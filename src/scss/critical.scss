@@ -102,6 +102,13 @@ p {
   }
 }
 
+.card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem 1rem;
+}
+
 header {
   position: relative;
 
@@ -226,11 +233,6 @@ footer {
   }
 
   &__card {
-    background-color: var(--card-bg);
-    border-radius: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 2rem 1rem;
-
     .ingredients__list {
       padding-left: 1rem;
     }

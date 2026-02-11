@@ -1,0 +1,91 @@
+<section class="foods">
+  <div class="container">
+    {% set baseUrl = "assets/images/" %}
+    {% for food in foods %}
+      <div class="foods__card">
+        <h2 class="foods__name">{{ food.name }}</h2>
+        <div class="foods__image">
+          <img
+            src="{{ ('/assets/images/' + (food.name | lower | replace (' ', '_') | replace ('\'', '')) + '.png') | url }}"
+            alt=""
+          />
+        </div>
+        <ul class="foods__stats">
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Health</span>
+              :
+              <span class="value">{{ food.health }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Stamina</span>
+              :
+              <span class="value">{{ food.stamina }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Eitr</span>
+              :
+              <span class="value">{{ food.eitr }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Total</span>
+              :
+              <span class="value">{{ food.total }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Fork Type</span>
+              :
+              <span class="value">{{ food.fork_type }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Healing</span>
+              :
+              <span class="value">{{ food.healing }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Duration</span>
+              :
+              <span class="value">{{ food.duration }}</span>
+            </p>
+          </li>
+          <li class="stats__item">
+            <p>
+              <span class="attribute">Biome</span>
+              :
+              <span class="value">{{ food.biome }}</span>
+            </p>
+          </li>
+          {% if food.ingredients %}
+            <li class="stats__item">
+              <p>
+                <span class="attribute">Ingredients</span>
+                :
+                <span class="value">
+                  <ul class="ingredients__list">
+                    {% for ingredient in food.ingredients %}
+                      <li class="ingredients__items">
+                        <p><span class="value">{{ ingredient }}</span></p>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </span>
+              </p>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>

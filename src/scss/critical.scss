@@ -270,33 +270,40 @@ footer {
 }
 
 .foods-table {
+  --section-spacing: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
+
   .foods__table {
     table-layout: fixed;
     width: 90%;
     margin: 0 auto;
     border-collapse: collapse;
     border: 1px solid var(--border-color);
-  }
 
-  th,
-  td {
-    padding: 0.6em;
-    border: 1px solid var(--border-color);
-  }
+    caption {
+      text-align: left;
+      margin-bottom: 1em;
+    }
 
-  tr {
-    text-align: right;
-  }
+    th,
+    td {
+      padding: 0.6em;
+      border: 1px solid var(--border-color);
+    }
 
-  tr :nth-child(1),
-  tr :nth-child(10) {
-    text-align: left;
-  }
+    tr {
+      text-align: right;
+    }
 
-  tr :nth-child(2) {
-    text-align: center;
-    margin: 0 auto;
-    width: 7%;
+    tr :nth-child(1),
+    tr :nth-child(10) {
+      text-align: left;
+    }
+
+    tr :nth-child(2) {
+      text-align: center;
+      margin: 0 auto;
+      width: 7%;
+    }
   }
 }
 @media (min-width: 48rem) {

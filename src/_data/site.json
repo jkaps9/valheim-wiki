@@ -2,16 +2,32 @@
   "name": "Valheim Wiki",
   "navigation": [
     {
-      "text": "About",
-      "url": "/about/"
+      "text": "Food",
+      "url": "/food/"
     },
     {
-      "text": "Services",
-      "url": "/services/"
+      "text": "Biomes",
+      "url": "/biomes/"
     },
     {
-      "text": "Projects",
-      "url": "/projects/"
+      "text": "Weapons",
+      "url": "/weapons/"
+    },
+    {
+      "text": "Armor",
+      "url": "/armor/"
+    },
+    {
+      "text": "Creatures",
+      "url": "/creatures/"
+    },
+    {
+      "text": "Crafting",
+      "url": "/crafting/"
+    },
+    {
+      "text": "Building",
+      "url": "/building/"
     }
   ],
   "services": [

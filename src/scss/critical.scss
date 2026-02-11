@@ -23,6 +23,11 @@
   --footer-bg: #111;
   --cta-bg: #1a1a1a;
 
+  --fork-yellow: #e8fc03;
+  --fork-red: #fc0320;
+  --fork-blue: #0703fc;
+  --fork-white: #f3ebeb;
+
   // CONTAINER
   --container-max-width: 70rem;
   --container-width: 90%;
@@ -211,6 +216,47 @@ header {
 
 footer {
   text-align: center;
+}
+
+.foods {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  &__card {
+    background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem 1rem;
+
+    .ingredients__list {
+      padding-left: 1rem;
+    }
+  }
+
+  &__title-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__fork {
+    height: 100%;
+    width: 2.5rem;
+    &.yellow svg * {
+      fill: var(--fork-yellow);
+    }
+    &.red svg * {
+      fill: var(--fork-red);
+    }
+    &.blue svg * {
+      fill: var(--fork-blue);
+    }
+    &.white svg * {
+      fill: var(--fork-white);
+    }
+  }
 }
 
 @media (min-width: 48rem) {

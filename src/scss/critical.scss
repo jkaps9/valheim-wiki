@@ -257,6 +257,12 @@ footer {
       fill: var(--fork-white);
     }
   }
+
+  .stats__item {
+    .value {
+      color: var(--text-color);
+    }
+  }
 }
 
 @media (min-width: 48rem) {

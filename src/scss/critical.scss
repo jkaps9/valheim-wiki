@@ -261,25 +261,12 @@ header {
   }
 }
 
-body:has(main.grid) header {
-  svg.table {
-    visibility: visible;
-    height: 2rem;
-    position: relative;
-  }
-
-  svg.grid {
-    visibility: hidden;
-    height: 0;
-    position: absolute;
-  }
-}
-
 footer {
   text-align: center;
 }
 
 .foods {
+  display: none;
   .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
@@ -312,7 +299,7 @@ footer {
 
 .foods-table {
   --section-spacing: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
-
+  display: block;
   .foods__table {
     table-layout: fixed;
     width: 90%;
@@ -347,6 +334,31 @@ footer {
     }
   }
 }
+
+body:has(main.grid) {
+  header {
+    svg.table {
+      visibility: visible;
+      height: 2rem;
+      position: relative;
+    }
+
+    svg.grid {
+      visibility: hidden;
+      height: 0;
+      position: absolute;
+    }
+  }
+
+  .foods {
+    display: block;
+  }
+
+  .foods-table {
+    display: none;
+  }
+}
+
 @media (min-width: 48rem) {
   header {
     .nav-toggle {
